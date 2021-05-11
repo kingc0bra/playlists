@@ -2,7 +2,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1em;
   font-family: 'IBM Plex Mono', monospace;  
 }
 
@@ -27,7 +27,8 @@ img {
 }
 
 .sub-heading {
-  font-size: 12px;
+  font-size: 0.5em;
+  display: inline;
 }
 
 .sub-heading ul li {
@@ -43,19 +44,32 @@ img {
   content: none;
 }
 
+.tag {
+  display: inline;
+  line-height: 1em;
+}
+
+.tag .soundboard {
+  background-color: limegreen;
+  border-radius: 0.25em;
+  padding: 0 0.25em;
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
 div.outline-2 {
-  margin-top: 30px;
+  margin-top: 2em;
 }
 
 #postamble {
-  margin-top: 30px;
+  margin-top: 2em;
 }
 
 .outline-text-2 p {
-  padding-top: 16px;
-  padding-bottome: 16px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .org-ul {
-  margin-left: 32px;
+  margin-left: 2em;
 }
