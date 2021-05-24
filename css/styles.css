@@ -1,9 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("IBM Plex Mono"),
+       local("IBMPlexMono"),
+       url("../fonts/woff2/IBMPlexMono-Regular.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("IBM Plex Mono Italic"),
+       local("IBMPlexMono-Italic"),
+       url("../fonts/woff2/IBMPlexMono-Italic.woff2") format("woff2");
+}
+
 
 html {
   box-sizing: border-box;
   font-size: 1em;
-  font-family: 'IBM Plex Mono', monospace;  
+  font-family: "IBM Plex Mono", monospace;
 }
 
 *, *:before, *:after {
@@ -24,6 +43,11 @@ img {
 #content {
   width: 100%;
   margin: 0 auto;
+}
+
+.title {
+  font-style: italic;
+  font-size: 3em;
 }
 
 .sub-heading {
@@ -57,6 +81,10 @@ img {
   vertical-align: middle;
 }
 
+.tagline {
+  font-style: italic;
+}
+
 div.outline-2 {
   margin-top: 2em;
 }
@@ -67,7 +95,7 @@ div.outline-2 {
 
 .outline-text-2 p {
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottome: 1em;
 }
 
 .org-ul {
